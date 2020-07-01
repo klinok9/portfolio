@@ -262,3 +262,46 @@ header{
 .reviews_rating{
     margin-bottom: 6rem;
 }
+.courses{
+    margin-top: 14rem;
+    margin-bottom: 8rem;
+}
+.subtitle{
+    text-align: center;
+    font-size: 1.1rem;
+    color: var(--gray);
+    font-weight: 300;
+}
+.margin{
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+.courses_inner{
+    margin-top: 3.5rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.course{
+    width: 30%;
+    padding: 0 1rem;
+}
+.course_name{
+    margin-top: 1.3rem;
+    font-size: 0.6rem;
+    margin-bottom: 0.75rem;
+    color: var(--black);
+    font-weight: bold;
+}
+.course_cat{
+    margin-bottom: 1.5rem;
+    font-size: 0.75rem;
+    color: var(--gray);
+}
+.course_text{
+    font-size: 0.75rem;
+    color: var(--gray);
+    font-weight: 300;
+}
+.bttn{
+    margin-top: 1.5rem;
+}
