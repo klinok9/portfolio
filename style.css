@@ -183,3 +183,39 @@ header{
     text-transform: uppercase;
     font-weight: bold;
 }
+.about_inner{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 7rem;
+}
+.about_photo{
+    max-width: 50%;
+    padding-left: 3.5rem;
+}
+.about_content{
+    width: 50%;
+    margin-top: 5rem;
+    padding-left: 7.5rem;
+
+}
+.about_title{
+    font-size: 2.8rem;
+    font-weight: bold;
+    color: var(--black);
+    text-transform: uppercase;
+}
+.about_bigtitle{
+    font-size: 5.75rem;
+    font-weight: bold;
+    color: var(--gray-light);
+    text-transform: uppercase;
+
+}
+.about_text{
+    margin-top: 2.5rem;
+    margin-bottom: 3.5rem;
+    font-size: 0.75rem;
+    font-weight: 300;
+    color: var(--gray);
+
+}
