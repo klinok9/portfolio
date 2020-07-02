@@ -355,3 +355,119 @@ header{
 
     text-decoration: none;
 }
+
+@media(max-width: 1199px){
+    .intro{
+        margin-top: -5rem;
+
+    }
+    .intro_photo{
+        width: 100%;
+        position: relative;
+    }
+    .intro_inner{
+        display: flex;
+        flex-wrap: wrap-reverse;
+        padding: 5rem 0;
+    }
+    .work{
+        width: 98%;
+        margin: 1rem auto;
+        border-radius: 1.5rem;
+    }
+    .work_photo{
+        width: 100%;
+    }
+    .work-cat{
+        font-size: 1.2rem;
+    }
+    .work-title{
+        font-size: 1.5rem;
+    }
+    .about_photo{
+        width: 100%;
+        height: 100%;
+        padding-left: 1rem;
+    }
+    .about_content{
+        margin-top: 0rem;
+        padding: 0 2rem;
+    }
+    .about_bigtitle{
+        font-size: 2rem;
+    }
+    .about_text{
+        font-size: 1rem;
+    }
+    .course{
+        width: 100%;
+        margin-bottom: 3rem;
+        padding: 0 1rem;
+    }
+    .course_photo{
+        width: 100%;
+    }
+    .course_name{
+        font-size: 2rem;
+    }
+    .course_cat{
+        font-size: 1rem;
+    }
+    .course_text{
+        font-size: 1rem;
+        margin-bottom: -1rem;
+    }
+}
+@media(max-width: 767px){
+    .user{
+        display: none;
+    }
+    .nav{
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        border-bottom: 1px solid #000;
+        padding-bottom: 1rem;
+    }
+    .nav_link{
+        margin: 0;
+    }
+    .intro_title{
+        font-size: 2.2rem;
+    }
+    .text_center{
+        margin: 1rem auto;
+    }
+    .works{
+        margin-bottom: 2rem;
+    }
+    .work-cat{
+        font-size: 0.7rem;
+
+    }
+    .work-title{
+        font-size: 0.9rem;
+    }
+    .about_inner{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .about_photo{
+        min-width: 100%;
+        margin: 0;
+        padding: 0;
+        height: 100%;
+    }
+    .about_content{
+        margin-top: 3rem;
+        width: 100%;
+        padding: 0 1rem;
+    }
+    .footer_nav{
+        display: none;
+    }
+    .footer_copyright{
+        font-size: 0.8rem;
+    }
+
+}
